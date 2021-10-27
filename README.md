@@ -3,6 +3,7 @@
 kafka kurulumu için yml dosyası => https://github.com/confluentinc/cp-all-in-one/blob/6.2.1-post/cp-all-in-one/docker-compose.yml
 dosyayı indirdikten sonra aynı klasörün içinde "docker-compose up -d" komutu çalıştırılmalı.
 
+- pythonda indirilmesi gereken paketler confluent-kafka, pymongo.
 - mongoDB database yetkisi verildi maillerinize gelmiş olması lazım.
 
 - localhost:9092 arayüzünden Topics kısmından "vehicle_topic", "detection1_topic", "detection2_topic", "detection3_topic" oluştur.
