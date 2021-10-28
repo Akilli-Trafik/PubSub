@@ -6,7 +6,7 @@ dosyayı indirdikten sonra aynı klasörün içinde "docker-compose up -d" komut
 - pythonda indirilmesi gereken paketler confluent-kafka, pymongo.
 - mongoDB database yetkisi verildi maillerinize gelmiş olması lazım.
 
-- localhost:9092 arayüzünden Topics kısmından "vehicle_topic", "detection1_topic", "detection2_topic", "detection3_topic" oluştur.
+- localhost:9091 arayüzünden Topics kısmından "vehicle_topic", "detection1_topic", "detection2_topic", "detection3_topic" oluştur.
 - docker-hub connector cli'ye 'confluent-hub install mongodb/kafka-connect-mongodb:1.6.1' koduyla mongoDB connector'ı yükle. (ilgili link: https://www.confluent.io/hub/mongodb/kafka-connect-mongodb) yükledikten sonra gözükmesi için container'ın kapatılıp açılması lazım bende öyle oldu.
 - connectorları oluştururken database ismi olarak Violation, violation1_topic için collection violation1,  violation2_topic için collection violation2,  violation3_topic için collection violation3 olmalı.
 - https://www.youtube.com/watch?v=_6NuTTQdDn4 videosunda gösterildiği gibi connectorları oluştur.
