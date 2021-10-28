@@ -1,4 +1,4 @@
-zzzzzzz# PUB-SUB
+# PUB-SUB
 
 kafka kurulumu için yml dosyası => https://github.com/confluentinc/cp-all-in-one/blob/6.2.1-post/cp-all-in-one/docker-compose.yml
 dosyayı indirdikten sonra aynı klasörün içinde "docker-compose up -d" komutu çalıştırılmalı.
